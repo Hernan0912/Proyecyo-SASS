@@ -1,0 +1,73 @@
+.grid__flota{
+    display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"nav nav"
+	"header header" 
+	"aside main" 
+	"footer footer";
+	align-content: center;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+    .flota{
+        padding: 2rem;
+    }
+}
+
+.auto1{
+    display: grid;
+    grid-area: auto1;
+}
+
+.auto2{
+    display: grid;
+    grid-area: auto2;
+}
+
+.auto3{
+    display: grid;
+    grid-area: auto3;
+}
+
+.cam1{
+    display: grid;
+    grid-area: cam1;
+}
+
+.cam2{
+    display: grid;
+    grid-area: cam2;
+}
+
+.cam3{
+    display: grid;
+    grid-area: cam3;
+}
+
+.moto1{
+    display: grid;
+    grid-area: moto1;
+}
+
+.moto2{
+    display: grid;
+    grid-area: moto2;
+}
+
+.grid__autos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 10rem;
+    grid-template-areas: 
+    "auto1 auto2 auto3"
+    "cam1 cam2 cam3"
+    "moto1 moto2";
+    /*border-radius: 5rem;*/
+    background-color: $backColor;
+    padding: 1rem;
+}
+
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALPHA-Precios</title>
+</head>
+<link rel="shortcut icon" href="../img/favicon.jfif">
+<!--BS CSS-->
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<!--Mi CSS-->
+<link rel="stylesheet" href="../css/main.css">
+<body>
+
+<!--Inicia NAV-->
+
+<nav>
+
+	<!--Logo-->
+
+	<a href="../index.html">
+		<img id="indice__logo" src="../img/logo.jfif" alt="alpha - alquiler de autos">
+	</a>
+
+	<!--Botonera-->
+
+	<ul>
+		<li>
+			<a class="navegacion__seleccion" href="../index.html">INDICE</a>
+		</li>
+		<li>
+			<a class="navegacion__seleccion" href="../pages/coberturas.html">COBERTURAS</a>
+		</li>
+		<li>
+			<a class="navegacion__seleccion--encendido" href="../pages/precios.html">PRECIOS</a>
+		</li>
+		<li>
+			<a class="navegacion__seleccion" href="../pages/flota.html">FLOTA</a>
+		</li>
+		<li>
+			<a class="navegacion__seleccion" href="../pages/nosotros.html">NOSOTROS</a>
+		</li>
+	</ul>
+
+</nav>
+
+<!--Finaliza nav-->
+
+	<!--Inicia header-->
+	<header>
+		<img src="../img/header.jpg" alt="llevate tu auto">
+		<!--Inicia Carousel
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="../img/header.jpg" class="d-block w-100" alt="Llevate tu auto">
+			    </div>
+
+			    <div class="carousel-item">
+			      <img src="../img/header2.jpg" class="d-block w-100" alt="Llevate tu auto">
+			    </div>
+
+			    <div class="carousel-item">
+			      <img src="../img/header3.jpg" class="d-block w-100" alt="Llevate tu auto">
+			    </div>
+
+			  </div>
+
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+		</div>
+		Finaliza Carousel-->
+	</header>
+	<!--Fin header-->
+
+	<main id="altura__precios">
+		<h1>PRECIOS</h1>
+		<div class="tabla__ubicacion">
+			<table class="tabla__precios" border="5px" cellpadding="10px" cellspacing="2px">
+				<tr>
+					<th>Vehículo</th>
+					<th>Período</th>
+					<th>Precio</th>
+				</tr>
+				<tr>
+					<td>Auto</td>
+					<td>Dia</td>
+					<td>$2500</td>
+				</tr>
+				<tr>
+					<td>Moto</td>
+					<td>Día</td>
+					<td>$1200</td>
+				</tr>
+				<tr>
+					<td>Camioneta</td>
+					<td>Día</td>
+					<td>$4000</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--inicia acordeon-->
+
+		<!--<div class="accordion" id="accordionPanelsStayOpenExample">
+			  <div class="accordion-item">
+			    <h3 class="fuente__acordeon accordion-header" id="panelsStayOpen-headingOne">
+			      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+			        <p>MEDIOS DE PAGO</p>
+			      </button>
+			    </h3>
+			    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+			      <div class="accordion-body">
+			      <p><code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit soluta quis, voluptatibus assumenda accusantium doloremque voluptate iure magnam neque cum et itaque beatae veritatis non quasi aperiam repellat natus.</code></p>		      
+			      <div class="logos__pagos"> 
+			     		<img src="../precios/efectivo.png" alt="efectivo"> 
+				      <img src="../precios/mastercard.svg" alt="mastercard">
+				      <img src="../precios/visa.svg" alt="visa">
+				      <img src="../precios/mercadopago.svg" alt="mercado pago">
+			      </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h3 class="fuente__acordeon accordion-header" id="panelsStayOpen-headingTwo">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+			        <p>¿PUEDO IR A OTRO PAÍS CON UN AUTO ALQUILADO?</p>
+			      </button>
+			    </h3>
+			    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+			      <div class="accordion-body">
+			        <p><code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit soluta quis, voluptatibus assumenda accusantium doloremque voluptate iure magnam neque cum et itaque beatae veritatis non quasi aperiam repellat natus.</code></p>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h3 class="fuente__acordeon accordion-header" id="panelsStayOpen-headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+			        <p>¿QUE PASA SI ME ROBAN O CHOCAN EL AUTO?</p>
+			      </button>
+			    </h3>
+			    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+			      <div class="accordion-body">
+			      	<p><code>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit soluta quis, voluptatibus assumenda accusantium doloremque voluptate iure magnam neque cum et itaque beatae veritatis non quasi aperiam repellat natus.</code></p>
+			      </div>
+			    </div>
+			  </div>
+		</div>
+
+finaliza acordeon-->
+	</main>
+	<footer>
+		<div class="pie__footer">
+			<div>
+				<p>Seguinos en nuestras redes sociales:</p>
+			</div>
+			<div>
+				<a href="https://facebook.com" target="_blank">
+					<img src="../img/facebook.png" alt="seguinos en facebook">
+				</a>
+					<a href="https://instagram.com" target="_blank">
+					<img src="../img/instagram.jpg" alt="seguinos en instagram">
+				</a>
+					<a href="https://twitter.com" target="_blank">
+					<img src="../img/twitter.png" alt="seguinos en twitter">
+				</a>
+			</div>
+			<div>
+				<p>Derechos reservados Alpha - RentMotors © 2022</p>
+			</div>
+		</div>
+	</footer>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

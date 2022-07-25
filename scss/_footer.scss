@@ -1,0 +1,23 @@
+footer{
+    grid-area: footer;
+    .pie__footer{
+        font-size: 0.5rem;
+		background-color: $grey;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 5rem;
+        div{
+             a{
+                img{
+                    padding: 0.2rem;
+		            width: $w-25;
+                }
+            }
+        }
+
+        p{
+            font-size: $textSm;
+        }
+    }
+}

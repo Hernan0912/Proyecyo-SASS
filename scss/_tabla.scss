@@ -1,0 +1,13 @@
+.tabla__ubicacion{
+    display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 2rem;
+    .tabla__precios{
+        font-size: 15rem;
+		color:$white;
+		border: 1rem double ghostwhite;
+		padding: 1rem;
+		width: $w-45;
+    }
+}

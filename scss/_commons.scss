@@ -1,0 +1,206 @@
+*{
+    font-family: $fontMain;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3{
+    font-family: $secondaryFont;
+    font-weight: $textBold;
+    color: $white;
+}
+
+h1{
+    font-size: $textLg;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+h2{
+    text-align: center;
+	padding: 1rem;
+    font-size: $textMd;
+}
+
+h3{
+    font-size: $textSm;
+}
+
+p{
+    color: $black;
+    line-height: 2em;
+    font-size: $textMd;
+	color:$white;
+}
+
+aside{
+    grid-area: aside;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 5rem;
+		border: $grey solid 1rem;
+		background-color: $softGrey;
+        div{
+            ul{
+                li{
+                    margin: 2rem;
+                    list-style: none;
+                }
+            }
+        }
+}
+
+header{
+    grid-area: header;
+    img{
+        width: $w-100;
+    }
+}
+
+main{
+    background-image: url(../img/carretera.jpg);
+	background-color:$softColor;
+	background-blend-mode: soft-light;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	grid-area: main;
+	overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+	color: $black;
+}
+
+label{
+    text-align: center;
+	font-size: $textLg;
+    color: $white;
+}
+
+option{
+    font-size: $textMd;
+}
+
+textarea{
+    display: flex;
+	justify-content: center;
+}
+
+figcaption{
+    background-color: $thirdColor;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.mapa__ubicacion{
+    display: flex;
+	justify-content: center;
+	width: auto;
+	padding: 1rem;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+	font-size: $textLg;
+	color:$white;
+	padding: 1rem;
+    .email{
+        margin-bottom: 2rem;
+		font-size: $textMd;
+    }
+    .formulario__pedido{
+        font-size: $textLg;
+		padding: 1rem;
+    }
+    .formulario__retiro{
+        font-size: $textLg;
+		padding: 1rem;
+    }
+    .formulario__dos{
+        margin-top: 1rem;
+		display: flex;
+		flex-direction: column;
+        .formulario__consulta{
+            border: $grey outset 0.5rem;
+		    background-color: $grey;
+		    font-size: $textMd;
+        }
+        .botones{
+            display: flex;
+		    justify-content: space-between;
+		    padding: 1rem;
+            .formulario__cancelar{
+                font-size: 2rem;
+		        width: $w-45;
+		        height: auto;
+		        background: $cancel;
+                &:hover{
+                    border: outset 1px $black;
+                }
+            }
+            .formulario__enviar{
+                font-size: 2rem;
+		        width: $w-45;
+		        height: auto;
+		        background: $submit;
+                &:hover{
+                    border: outset 1px $black;
+                }
+            }
+        }
+    }
+    select{
+        font-size: $textMd;
+    }
+}
+
+.logos__pagos{
+    display: flex;
+	justify-content: space-around;
+}
+
+form{
+    display: flex;
+	flex-direction: column;
+}
+
+.navegacion__seleccion--encendido{
+    color: $thirdColor;
+}
+
+.navegacion__seleccion:hover{
+    color: $thirdColor;
+}
+
+.coberturas__iconos{
+    border: dashed $black 3px;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.fondo__cobertura{
+    display: flex;
+    border-radius: 5rem;
+    background-color: $backColor;
+    padding: 2rem;
+}
+
+.coberturas{
+    padding: 2rem;
+}
+
+.borde{
+    border: $black solid 1rem;
+    margin: 1rem;
+}
+
